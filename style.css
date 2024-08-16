@@ -1,0 +1,74 @@
+.mainForm {
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid grey;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+h1 {
+    text-align: left;
+    color: black;
+}
+h3 {
+    color: rgb(81,113,177);
+}
+label {
+    margin: 15px 0 5px;
+    color: grey;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid rgb(208, 203, 203);
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.nameDiv input {
+    width: 48.9%;
+    display: inline-block;
+}
+.phoneField {
+    display: flex;
+    align-items: center;
+}
+.emailField{
+    margin-left: 5px!important;
+    /* margin-left: 5px */
+}
+.emailLabel{
+    margin-left: 233px;
+}
+select {
+    width: 15%;
+}
+
+.addressField input, 
+.addressField select {
+    width: 48%;
+    margin-right: 3%;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 0;
+}
+.cityRegionField{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.radioButtons {
+    display: flex;
+    gap: 100px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    cursor: pointer;
+}
